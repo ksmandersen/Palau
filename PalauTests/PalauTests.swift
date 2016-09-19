@@ -371,7 +371,7 @@ class PalauTests: XCTestCase {
     assert(PalauDefaults.intValue.value == 1)
 
     // deprecated but still works
-    PalauDefaults.intValue.reset()
+    PalauDefaults.intValue.clear()
     assert(PalauDefaults.intValue.value == nil)
 
   }
